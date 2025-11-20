@@ -1,6 +1,7 @@
 # CCDSTRU Machine Project  
 ### Term 2, AY 2024–2025  
 ### **Due: April 1, 2025 (Tuesday), 08:00**
+### Contributors: Bilanes, Edmund Kendrick D. | Nicolas, Francis Medin N.
 
 Implement a computer program (in **C** or **Java**) that satisfies the formal system specification described below. This MP involves sets, relations, and state-based behavior related to a turn-based system operating on subsets of positions.
 
