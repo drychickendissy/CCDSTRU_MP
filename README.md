@@ -29,9 +29,6 @@ A set containing the following subsets of P:
 
 {(4,1),(4,2),(4,3),(4,4)}
 
-markdown
-Copy code
-
 ### **T**  
 A relation on A that is:
 - reflexive  
@@ -62,20 +59,11 @@ All of the following are **subsets of P** unless noted otherwise:
 ### **Free positions:**
 F = P − (Uno ∪ Tres)
 
-markdown
-Copy code
-
 ### **Winning sets:**
 W = C − T
 
-markdown
-Copy code
-
 ### **Game over condition:**
 over ↔ (Uno ∈ W ∨ Tres ∈ W ∨ F = ∅)
-
-yaml
-Copy code
 
 ---
 
@@ -86,9 +74,6 @@ Dos = ∅
 Tres = ∅
 turn = true
 go = false
-
-yaml
-Copy code
 
 ---
 
@@ -101,16 +86,10 @@ Uno = Uno ∪ {pos}
 turn = ¬turn
 go = ¬go
 
-arduino
-Copy code
-
 ### Case 2: turn = false, and pos ∈ Uno ∪ Tres  
 Uno = Uno − {pos}
 Tres = Tres − {pos}
 turn = ¬turn
-
-arduino
-Copy code
 
 ### Case 3: turn = true, go = false, and pos ∈ F  
 Tres = Tres ∪ {pos}
@@ -164,5 +143,5 @@ Language options:
 
 # Machine Project Demo
 
-Link to MP Demo can be found below:
+Link to MP Demo can be found here:
 https://drive.google.com/file/d/1QWyCwZNPGgG39AlHlDVp8ZNwUS3yqduZ/view?usp=sharing 
